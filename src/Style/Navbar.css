@@ -1,0 +1,129 @@
+
+
+.nav-main {
+    background-color: #FFFFFF ;
+}
+
+.vent-h3 {
+    color:  #1F253F;
+    font-family: clash-grotesk;
+    font-weight: 600;
+    line-height: 22.14px;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    
+}
+
+.gaps {
+    gap: 10px;
+}
+
+.nav-space {
+    gap: 4.5rem;
+}
+
+.nav-home p {
+    color: #1F253F;
+    font-family: clash-grotesk;
+    font-weight: 600;
+    line-height: 19.68px;
+    font-size: 16px;
+}
+
+.nav-home p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.book-div-1 p {
+    color:  #1F253F;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.08px;
+    margin-top: 17px;
+
+}
+
+.book-div-1 img {
+    width: 11px;
+    /* margin-bottom: 8px; */
+}
+
+.book-div-1:hover img {
+    /* transform: rotate(-318deg); */
+    transform: rotate(45deg);
+}
+
+.book-div-1 {
+    cursor: pointer;
+}
+
+.book-div-2 {
+    width: 154.44px;
+    height: 44px;
+    background-color: #1F253F;
+    border-radius: 12px;
+}
+
+.book-div-2 p {
+    border-radius: 12px;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.64px;
+    color: #FFFFFF;
+    margin-top: 16px;
+
+}
+
+.book-div-2 img {
+    width: 11px;
+}
+
+.book-div-2:hover img {
+    /* transform: rotate(-318deg); */
+    transform: rotate(45deg);
+    transition: 0.03ms;
+    opacity: 0.8;
+}
+
+.book-div-2:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.image-icon {
+    width: 29px;
+}
+
+.nav-homes p {
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    line-height: 19.68px;
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.nav-homes {
+    gap: 24px;
+}
+
+
+
+@media (max-width:765px) {
+    .nav-main {
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+
+@media (min-width:766px) and (max-width:991px) {
+   
+}
+
+
+
+
+
+
+
