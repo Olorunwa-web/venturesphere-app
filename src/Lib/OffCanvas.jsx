@@ -21,7 +21,7 @@ const OffCanvas = ({ name, ...props }) => {
                 <div onClick={handleShow}>
                     <img src= {menuicon} alt="" className = 'image-icon'/>
                 </div>
-                <Offcanvas show={show} onHide={handleClose} {...props} className = 'h-100'>
+                <Offcanvas show={show} onHide={handleClose} {...props} className = 'h-75'>
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title>
                          <div className = 'd-flex gaps align-items-cente'>

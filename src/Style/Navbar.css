@@ -2,6 +2,9 @@
 
 .nav-main {
     background-color: #FFFFFF ;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .vent-h3 {
@@ -25,7 +28,7 @@
 .nav-home p {
     color: #1F253F;
     font-family: clash-grotesk;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 19.68px;
     font-size: 16px;
 }
@@ -50,14 +53,14 @@
     /* margin-bottom: 8px; */
 }
 
-.book-div-1:hover img {
-    /* transform: rotate(-318deg); */
+/* .book-div-1:hover img {
     transform: rotate(45deg);
-}
+   
+} */
 
-.book-div-1 {
+/* .book-div-1 {
     cursor: pointer;
-}
+} */
 
 .book-div-2 {
     width: 154.44px;
@@ -81,12 +84,11 @@
     width: 11px;
 }
 
-.book-div-2:hover img {
-    /* transform: rotate(-318deg); */
+/* .book-div-2:hover img {
     transform: rotate(45deg);
     transition: 0.03ms;
     opacity: 0.8;
-}
+} */
 
 .book-div-2:hover {
     opacity: 0.9;
@@ -111,14 +113,20 @@
 
 
 
-@media (max-width:765px) {
+@media (max-width:767px) {
     .nav-main {
         border-bottom: 1px solid #EBEBEB;
     }
 }
 
-@media (min-width:766px) and (max-width:991px) {
-   
+@media (min-width:768px) and (max-width:991px) {
+   .nav-flex-space {
+       display: none !important;
+   }
+
+   .nav-harm {
+       display: flex !important;
+   }
 }
 
 
