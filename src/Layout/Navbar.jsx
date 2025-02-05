@@ -31,8 +31,7 @@ const constantvariant = {
 const Navbar = () => {
 
 
-    const [isHovered, setIsHovered] = useState(false);
-
+    const [showOverlay, setShowOverlay] = useState(false)
 
     return (
         <>
@@ -54,33 +53,22 @@ const Navbar = () => {
                  
                    </section>
                    <section className = 'd-none d-md-flex gap-4 align-items-center nav-flex-space'>
-                       <motion.div className = 'd-flex gap-2 align-items-center book-div-1'
-                        whileHover = {{
-                        }}
-                       >
+                       <motion.div className = 'd-flex gap-2 align-items-center book-div-1' whileHover= {{cursor: "pointer"}}> 
                            <p>Book a Strategy Call</p>
                            <motion.img  src= {bluearrow} alt=""
                              variants = {constantvariant}
                              initial = 'hidden'
                              animate = 'show'
-                             whileHover = {{
-                                scale: 1.1,
-                                rotate : 45,
-                                cursor: 'pointer',
-                             }}
+                            
                            />
                        </motion.div>
-                        <motion.div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2'
-                          whileHover = {{
-                            scale: 1.1
-                        }}
-                        >
+                        <motion.div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2' >
                              <p>Partner with Us</p>
-                             <motion.img src= {whitearrow} alt=""
-                               initial={{opacity: 0}}
-                               animate = {{opacity: 1 }}
-                               transition={{delay: 1, duration: 1}}
-                             />
+                                 <motion.img src= {whitearrow} alt=""
+                                   initial={{opacity: 0}}
+                                   animate = {{opacity: 1 }}
+                                   transition={{delay: 1, duration: 1}}
+                                 />
                         </motion.div>
                    </section>
                    <div className = 'd-md-none nav-harm'>
