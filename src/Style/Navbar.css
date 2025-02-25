@@ -136,6 +136,10 @@
    .nav-harm {
        display: flex !important;
    }
+
+   .off-set {
+       height: 50% !important;
+   }
 }
 
 

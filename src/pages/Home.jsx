@@ -12,6 +12,11 @@ import gold from '../assets/GoodLeap_Orange_Logo logo.svg'
 import google from '../assets/google logo.svg';
 import loom from '../assets/Group.svg'
 import {logos} from '../data'
+import About from '../pages/About'
+import Service from '../pages/Service';
+import Benefit from '../pages/Benefit';
+import Faq from '../pages/Faq';
+
 
 
 const constantvariant = {
@@ -39,6 +44,18 @@ const marqueeVariants = {
       },
     },
   };
+
+
+const  markvariants = {
+    transition: {
+          repeat: Infinity,
+          repeatType: "loop",
+          duration: 30,
+          ease: "linear",
+          yoyo: Infinity
+
+    }
+}
 
 
 
@@ -93,11 +110,13 @@ const Home = () => {
                     </section>
                     <section className = 'd-flex justify-content-between my-5 mark-space'>
                         <p className = 'trust-p'>Trusted Partnership with 100+ company's</p>
-                        {/* <div className = 'marquee-border d-flex'>
-                          <motion.div className = 'd-flex mars-width flex-shrink-1'
+                        <div className = 'marquee-border d-flex'>
+                          {/* <motion.div className = 'd-flex mars-width flex-shrink-1'
                             initial = {{ x: 0}}
                             animate = {{ x: '100%' }}
-                            transition = {{ duration: 10, repeat: Infinity, ease: 'linear' }}
+                            transition = {{ duration: 10, repeat: Infinity ,ease: 'linear' }}
+                            variants = {markvariants}
+                            transition = 'transition'
                                                       
                           >
                             <img src= {zippo} alt=""/>
@@ -117,10 +136,10 @@ const Home = () => {
                             <img src= {gold} alt=""/>
                             <img src= {google} alt=""/>
                             <img src= {loom} alt=""/>
-                        </motion.div>
+                        </motion.div> */}
 
-                        </div> */}
-                         <section className = 'marquee-wrapper  '>
+                        </div>
+                         <section className = 'marquee-wrapper mt-2 '>
                             <section className = 'marquee-content'>
                             <img src= {zippo} alt="" className = 'item item1'/>
                             <img src= {grammar} alt="" className = 'item item2'/>
@@ -133,6 +152,10 @@ const Home = () => {
                    
                 </section>
             </main>
+            <About/>
+            <Service/>
+            <Benefit/>
+            <Faq/>
         </>
     )
 }

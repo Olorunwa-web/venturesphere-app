@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import {Outlet} from 'react-router-dom'
+import { Outlet} from 'react-router-dom'
 import ventimg from '../assets/Logo.svg';
 import bluearrow from '../assets/Vector.svg';
 import whitearrow from '../assets/Vector (1).svg';
 import OffCanvas from '../Lib/OffCanvas'
 import '../Style/Navbar.css';
 import { motion } from 'framer-motion'
-
-
+import About from '../pages/About'
+import { Link } from 'react-scroll'
 
 const constantvariant = {
     hidden: {
@@ -22,8 +22,6 @@ const constantvariant = {
         },
     }
 }
-
-
 
 
 
@@ -43,10 +41,10 @@ const Navbar = () => {
                           <h2 className = 'vent-h3 mt-2'>VENTSPHERE</h2>
                        </div>
                        <div className = ' d-none d-lg-flex gap-5 align-items-center nav-home pt-3'>
-                           <p>Service</p>
-                           <p>About us</p>
-                           <p>Benefits</p>
-                           <p>FAQ ?</p>
+                           <p><Link to = "service" smooth = {true} duration = {500} >Service</Link></p>
+                           <p><Link to = "about" smooth = {true} duration = {500} >About us</Link></p>
+                           <p><Link to = "benefit" smooth = {true} duration = {500} >Benefit</Link></p>
+                           <p><Link to = "faq" smooth = {true} duration = {500} >FAQ ? </Link></p>
                        </div>
                    </section>
                    <section>

@@ -1,0 +1,156 @@
+
+
+.background-color-about {
+    background-color: white;
+}
+
+.about-p-tag {
+    color: #B1AD4E;
+    font-family: clash-grotesk;
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+}
+
+.about-h1-tag {
+    color: #1F253F;
+    font-family: clash-grotesk;
+    font-weight: 600;
+    line-height: 59.04px;
+    font-size: 48px;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.background-mission {
+    background-color: #1F253F;
+    border-radius: 16px;
+    width: 48%;
+    height: 420px;
+    padding: 3rem;
+}
+
+.image-mission-width {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF1A;
+}
+
+.background-vision {
+    background-color: #1D3D3A;
+    border-radius: 16px;
+    width: 48%;
+    height: 420px;
+    padding: 3rem;
+}
+
+.mission h5 {
+    color: #FFFFFF;
+    font-family: clash-grotesk;
+    font-weight: 500;
+    line-height: 34.44px;
+    font-size: 28px;
+}
+
+.mission p {
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFFB2;
+    width: 94%;
+}
+
+.missions h5 {
+    color: #FFFFFF;
+    font-family: clash-grotesk;
+    font-weight: 500;
+    line-height: 34.44px;
+    font-size: 28px;
+}
+
+.missions p {
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFFB2;
+    width: 94%;
+}
+
+@media (max-width:767px) {
+    .about-p-tag {
+        font-size: 13px;
+    }
+
+    .about-pad {
+        padding: 0 10px !important;
+    }
+
+    .about-h1-tag {
+        width: 90%;
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .background-vision {
+        width: 100%;
+        padding: 2rem 1.1rem;
+        height: auto;
+        gap: 3rem;
+    }
+
+    .background-mission {
+        width: 100%;
+        padding: 2rem 1.1rem;
+        height: auto;
+        gap: 3rem;
+    }
+
+    .flex-mission {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .mission h5, .missions h5 {
+        font-size: 23px;
+    }
+
+    .missions p, .mission p  {
+        width: 100%;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px)  {
+    .about-h1-tag {
+        width: 70%;
+        font-size: 37px;
+        line-height: 47px;
+    }
+
+    .background-vision {
+        width: 100%;
+        padding: 2rem;
+        height: auto;
+        gap: 3rem;
+    }
+
+    .background-mission {
+        width: 100%;
+        padding: 2rem;
+        height: auto;
+        gap: 3rem;
+    }
+
+    .flex-mission {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
