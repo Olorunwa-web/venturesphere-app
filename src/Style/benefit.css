@@ -1,0 +1,283 @@
+.background-benefit {
+    background-color: #FFFFFF;
+}
+
+.benefit-wrapper {
+    width: 45%;
+}
+
+.benefit-wrappers {
+    width: 45%;
+}
+
+.benefit-image-wrapper {
+    width: 45%;
+    z-index: 1;
+    height: auto;
+}
+
+.benefit-image-wrappers {
+    width: 45%;
+    z-index: 1;
+    height: auto;
+
+}
+
+.benefit-wrapper-h2 {
+    color: #1F253F;
+    font-family: clash-grotesk;
+    font-weight: 500;
+    line-height: 59.04px;
+    font-size: 48px;
+    width: 90%;
+}
+
+.benefit-wrapper-p {
+    color:  #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.5px;
+    width: 74%;
+}
+
+.benefit-image {
+    width: 95%;
+    border-radius: 16px;
+    height: 100%;
+}
+
+.benefit-images {
+    width: 95%;
+    border-radius: 16px;
+    margin-left: 30px;
+}
+
+.image-benefit {
+    position: relative;
+    z-index: 1;
+}
+
+.image-benefits {
+    position: relative;
+    z-index: 1;
+    
+}
+
+.position-up-image{
+    position: absolute;
+    right: 0;
+    top: -7%;
+}
+
+.position-up-images {
+    position: absolute;
+    top: -7%;
+    right: -4%;
+}
+
+.position-down-image {
+    position: absolute;
+    bottom: -6%;
+    left: -6%;
+}
+
+.position-down-images {
+    position: absolute;
+    bottom: -7%;
+    left: 0;
+}
+
+.section-2 {
+    margin-top: 4rem;
+}
+
+@media (max-width:767px) {
+
+    .section-2 {
+        margin-top: 0;
+    }
+
+    .benefit-wrapper, .benefit-wrappers {
+        width: 100%;
+    }
+
+    .benefit-image-wrapper, .benefit-image-wrappers {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-benefit, .image-benefits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefit-wrapper-h2 {
+        width: 100%;
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .benefit-wrapper-p {
+        width: 100%;
+    }
+
+    .benefit-image, .benefit-images {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .position-down-image {
+        bottom: -7%;
+        left: 0;
+    }
+
+    .position-down-images {
+        bottom: -7%;
+        left: 0;
+    }
+
+    .position-up-image{
+        right: 0;
+        top: -7%;
+    }
+
+    .position-up-images {
+         right: 0;
+         top: -7%;
+    }
+
+    .flex-content-services {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .flex-content-services-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .flex-content-services {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .benefit-wrapper, .benefit-wrappers {
+        width: 100%;
+    }
+
+    .benefit-image-wrapper, .benefit-image-wrappers {
+        width: 100%;
+        
+    }
+
+    .image-benefit, .image-benefits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefit-wrapper-h2 {
+        font-size: 40px;
+        line-height: 44px;
+        width: 70%;
+    }
+    
+    .benefit-image, .benefit-images {
+        width: 94%;
+        margin-left: 0;
+    }
+
+    .position-down-image {
+        bottom: -4%;
+        left: 0;
+    }
+
+    .position-up-image{
+        position: absolute;
+        right: 0;
+        top: -4%;
+    }
+
+    .flex-content-services-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .position-up-images {
+        right: 0;
+        top: -4%;
+   }
+
+   .position-down-images {
+         bottom: -4%;
+         left: 0;
+    }
+
+   
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .benefit-wrapper-h2 {
+        font-size: 40px;
+        line-height: 44px;
+        width: 100%;
+    }
+
+    .benefit-wrapper-p {
+        width: 100%;
+    }
+
+    .position-down-image {
+        position: absolute;
+        bottom: -7%;
+        left: -6%;    
+    }
+
+    .image-benefits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefit-images {
+        margin-left: 0;
+    }
+
+    .position-up-images {
+        top: -7%;
+        right: -2.7%;
+   }
+
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+    .position-down-image {
+        bottom: 0;
+        left: -6%;
+    }
+
+    .position-down-images {
+        bottom: 0;
+        left: 0;
+    }
+
+    .benefit-images {
+        margin-left: 20px;
+    }
+  
+
+    
+}
