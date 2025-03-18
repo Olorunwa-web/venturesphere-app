@@ -1,0 +1,215 @@
+
+
+
+.background-faq {
+    background-color: #F7F6F2;
+}
+
+
+.faq-tags h6 {
+    color:  #B1AD4E;
+    font-family: clash-grotesk;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 13px;
+    letter-spacing: 2.4px;
+}
+
+.faq-tags h2 {
+    color: #1F253F;
+    font-family: clash-grotesk;
+    font-weight: 600;
+    line-height: 59.04px;
+    font-size: 45px;
+    width: 44%;
+    margin: 0 auto;
+}
+
+.faq-1 {
+    width: 97% !important;
+    position: relative;
+}
+
+.image-div-width {
+    width: 100%;
+}
+
+
+
+
+.image-3 {
+    width: 100%;
+    height: 490px ;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);  
+}
+
+
+
+.quote {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+.word-quote {
+    position: absolute;
+    bottom: 6%;
+    left: 7%;
+    width: 85%;
+}
+
+.faq-2 {
+    width: 97% !important;
+    height: 490px;
+    background-color: #1F253F;
+    border-radius: 16px;
+    padding: 30px 2rem;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.slick-slide > div {
+    display: flex ;
+    justify-content: center;
+}
+
+.hen {
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20.08px;
+    color: #FFFFFF;
+}
+
+.dag {
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.08px;
+    color: #FFFFFF80;
+}
+
+
+.faq-3 {
+    width: 97% !important;
+    height: 490px ;
+    background-color: #1D3D3A;
+    border-radius: 16px;
+    padding: 30px 2rem;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+
+.faq-4 {
+    width: 97% !important;
+    height: 490px ;
+    background-color: #1D3D3A;
+    border-radius: 16px;
+    padding: 30px 2rem;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.faq-h-tag {
+    color: #FFFFFF80;
+    font-family: clash-grotesk;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.faq-h4-tag {
+    color:  #FFFFFF;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.faq-h4-tags {
+    color:  #FFFFFF;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.spans-tag {
+    color:  #FFFFFF;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.aug-span {
+    color:  #FFFFFF;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+@media (max-width:767px) {
+    .faq-tags h2 {
+        width: 90%;
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .faq-3, .faq-1, .faq-3 {
+        width: 100% !important;
+    }
+
+    .faq-h-tag {
+        font-size: 13px;
+    }
+
+    .faq-h4-tag {
+        font-size: 19px;
+    }
+    
+    .faq-h4-tags {
+        font-size: 19px;
+    }
+
+    .aug-span {
+        font-size: 16px;
+    }
+
+    .hen {
+        font-size: 16px;
+    }
+    
+    .dag {
+        font-size: 13px;
+    }
+   
+    
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .faq-tags h2 {
+        font-size: 40px;
+        line-height: 44px;
+        width: 70%;
+    }
+
+    .faq-1 {
+       width: 100% !important;
+    }
+}
+
+

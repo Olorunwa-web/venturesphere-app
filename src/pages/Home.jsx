@@ -16,7 +16,7 @@ import About from '../pages/About'
 import Service from '../pages/Service';
 import Benefit from '../pages/Benefit';
 import Faq from '../pages/Faq';
-
+import Group  from '../pages/Group';
 
 
 const constantvariant = {
@@ -155,6 +155,7 @@ const Home = () => {
             <About/>
             <Service/>
             <Benefit/>
+            <Group/>
             <Faq/>
         </>
     )

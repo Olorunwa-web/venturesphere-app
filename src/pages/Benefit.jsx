@@ -15,8 +15,8 @@ const Benefit = () => {
     return (
         <>
            <Element name = "benefit">
-               <section className = 'background-benefit py-4'>
-                   <section className = 'container about-pad my-4 d-flex flex-column gap-5'>
+               <section className = 'background-benefit py-3'>
+                   <section className = 'container py-5 about-pad my-4 d-flex flex-column gap-5'>
                          <section className = 'section-1 position-relative py-5'>
                               <div className = 'd-md-flex justify-content-between align-items-cente flex-content-services '>
                                   <div className = 'benefit-wrapper'>
