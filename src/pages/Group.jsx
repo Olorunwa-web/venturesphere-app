@@ -1,7 +1,7 @@
 import React from 'react'
 import image3 from '../assets/Img 3.jpg'
 import quote from '../assets/Quote.svg';
-import decor from '../assets/decor (3).svg'
+import Decorst from '../assets/decor (3).svg'
 import test1 from '../assets/Testimonial 1.svg'
 import test2 from '../assets/Testimonial 2.svg'
 import test3 from '../assets/Testimonial 3.svg'
@@ -84,7 +84,7 @@ const Group = () => {
                                  <div className = 'faq-2 sli'>
                                       <div className = 'd-flex flex-column gap-4 '>
                                         <div className = ' text-cent'>
-                                           <img src= {decor} alt="" className = 'w-100'/>
+                                           <img src= {Decorst} alt="" className = 'w-100'/>
                                          </div>
                                          <div>
                                             <h4 className = ' faq-h4-tags'>" Ventsphere's support has been pivotal, providing both the resources and expertise needed to scale our business."</h4> 
@@ -105,7 +105,7 @@ const Group = () => {
                                  <div className = 'faq-3 slid'>
                                   <div className = 'd-flex flex-column gap-4'>
                                     <div>
-                                      <img src= {decor} alt="" className = 'w-100'/>
+                                      <img src= {Decorst} alt="" className = 'w-100'/>
                                     </div>
                                     <div>
                                       <h4 className = 'faq-h4-tags'>"Working with Ventsphere give us the confidence and tools to navigate our industry and achieve our goals." </h4>
