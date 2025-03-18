@@ -1,7 +1,7 @@
 import React from 'react'
 import image3 from '../assets/Img 3.jpg'
 import quote from '../assets/Quote.svg';
-import decor from '../assets/Decor (3).svg'
+import decor from '../assets/decor (3).svg'
 import test1 from '../assets/Testimonial 1.svg'
 import test2 from '../assets/Testimonial 2.svg'
 import test3 from '../assets/Testimonial 3.svg'
