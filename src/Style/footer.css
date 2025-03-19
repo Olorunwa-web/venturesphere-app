@@ -77,6 +77,10 @@
         flex-direction: column;
         gap: 9px;
     }
+
+    .about-footer {
+        padding: 0 20px !important;
+    }
 }
 
 

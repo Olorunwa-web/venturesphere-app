@@ -64,7 +64,7 @@ const Faq = ({ title, content }) => {
                                              <span className = 'faq-accordion'>What types of startups do you work with?</span>
                                            </div>
                                            <div className={`accordion-content ${isClose ? "open" : "closed"}`}>
-                                             <p className = 'faq-offer'>We offer mentorship, strategic guidance, and access to our network of industry experts to help you grow your business successfully.</p>
+                                             <p className = 'faq-offer'>We Work with all startups including thoes in niche's like healthcares, edtech, AR/VR etc.</p>
                                           </div>
                                        </div>
                                    </div>
@@ -81,7 +81,7 @@ const Faq = ({ title, content }) => {
                                              <span className = 'faq-accordion'>How can I apply for funding?</span>
                                            </div>
                                            <div className={`accordion-content ${isClose ? "open" : "closed"}`}>
-                                             <p className = 'faq-offer'>We offer mentorship, strategic guidance, and access to our network of industry experts to help you grow your business successfully.</p>
+                                             <p className = 'faq-offer'>Quite easy, on our website click on the contact us button and send us a message or mail us at contact@ventsphere.com, we're avaliable at your disposal.</p>
                                           </div>
                                        </div>
                                    </div>

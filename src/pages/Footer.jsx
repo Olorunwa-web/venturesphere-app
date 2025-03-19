@@ -15,7 +15,7 @@ const Footer = () => {
     return (
         <>
             <main className = 'background-footer pt-4 pb-2'>
-                <section className = 'container about-pad my-5'>
+                <section className = 'container about-footer my-5'>
                     <section className = 'd-md-flex justify-content-between footer-flex '>
                         <section className = 'vent-width1 d-flex flex-column gap-3'>
                            <div className = 'd-flex gaps align-items-cente'>
