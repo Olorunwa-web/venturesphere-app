@@ -1,15 +1,17 @@
 import React from 'react'
-import image3 from '../assets/Img 3.jpg'
+import image3 from '../assets/Img 3.jpg';
 import quote from '../assets/Quote.svg';
-import Decorst from '../assets/decor (3).svg'
-import test1 from '../assets/Testimonial 1.svg'
-import test2 from '../assets/Testimonial 2.svg'
-import test3 from '../assets/Testimonial 3.svg'
-import test4 from '../assets/Testimonial 4.svg'
+import Decorst from '../assets/decor (3).svg';
+import test1 from '../assets/Testimonial 1.svg';
+import test2 from '../assets/Testimonial 2.svg';
+import test3 from '../assets/Testimonial 3.svg';
+import test4 from '../assets/Testimonial 4.svg';
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../Style/group.css'
+import '../Style/group.css';
+
 
 
 

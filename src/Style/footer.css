@@ -1,0 +1,116 @@
+.background-footer {
+    background-color: #FFFFFF;
+}
+
+
+.vent-p {
+    color:  #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.5px;
+    width: 270px;
+}
+
+.vent-width1 {
+    width: 45%;
+}
+
+.vent-width2 {
+   width: 18%;
+}
+
+.vent-width3 {
+   width: 18%;
+}
+
+.vent-width4 {
+   width: 17%;
+}
+
+.quick-h {
+    color:  #1F253F;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22.4px;
+}
+
+.footer-p {
+    color:  #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.copy {
+    color: #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.08px;
+}
+
+.terms {
+    color: #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.08px;
+}
+
+
+@media (max-width:767px) {
+    .vent-width1, .vent-width2, .vent-width3, .vent-width4 {
+        width: 100%;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .vent-width1 {
+        width: 30%;
+    }
+
+    .vent-p {
+        width: 100%;
+    }
+
+    .vent-width2 {
+        width: 20%;
+    }
+
+    .vent-width3{
+        width: 20%;
+    }
+
+    .vent-width4 {
+       width: 28%;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px)  {
+   .vent-width1 {
+       width: 42%;
+   }
+
+   .vent-width4 {
+       width: 20%;
+   }
+}
+
+

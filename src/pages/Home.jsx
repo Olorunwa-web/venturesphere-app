@@ -1,5 +1,5 @@
 import React from 'react'
-import { LayoutGroup, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import whitearrow from '../assets/Vector (1).svg';
 import bluearrow from '../assets/Vector.svg';
 import up from '../assets/Decor.svg';
@@ -17,7 +17,7 @@ import Service from '../pages/Service';
 import Benefit from '../pages/Benefit';
 import Faq from '../pages/Faq';
 import Group  from '../pages/Group';
-
+import Footer from '../pages/Footer'
 
 const constantvariant = {
     hidden: {
@@ -157,6 +157,7 @@ const Home = () => {
             <Benefit/>
             <Group/>
             <Faq/>
+            <Footer/>
         </>
     )
 }
