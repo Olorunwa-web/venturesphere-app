@@ -7,7 +7,7 @@ import image2 from '../assets/Image.jpg'
 import { motion } from 'framer-motion'
 import whitearrow from '../assets/Vector (1).svg';
 import image3 from '../assets/Image@2x.jpg'
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -23,6 +23,7 @@ const Benefit = () => {
                                      <h2 className = 'benefit-wrapper-h2 mb-4'>Unlocking Potential for Ambitious Startups</h2>
                                      <p className = 'benefit-wrapper-p'>We empower startups with essential resources and guidance to thrive. Our tailored support provides not only captial but also strategic insights, mentorship, and access to a vast network of industry experts.</p>
                                      <div className = 'mt-5'>
+                                         <Link to = '/register' className = 'text-decoration-none omo-div'>
                                      <motion.div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2-1'
                                 whileHover= {{
                                     cursor: 'pointer'
@@ -35,6 +36,7 @@ const Benefit = () => {
                                  transition={{delay: 1, duration: 1}}
                                 />
                                </motion.div>
+                                         </Link>
                                      </div>
                                   </div>
                                   <div className = 'benefit-image-wrapper position-relative'>
@@ -68,6 +70,7 @@ const Benefit = () => {
                                      <h2 className = 'benefit-wrapper-h2 mb-4'>Partner with seasoned professionals</h2>
                                      <p className = 'benefit-wrapper-p'>We empower startups with essential resources and guidance to thrive. Our tailored support provides not only captial but also strategic insights, mentorship, and access to a vast network of industry experts.</p>
                                      <div className = 'mt-5'>
+                                     <Link to = '/register' className = 'text-decoration-none omo-div'>
                                      <motion.div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2-1'
                                 whileHover= {{
                                     cursor: 'pointer'
@@ -80,6 +83,7 @@ const Benefit = () => {
                                  transition={{delay: 1, duration: 1}}
                                 />
                                </motion.div>
+                                     </Link>
                                      </div>
                                   </div>
                               </div>

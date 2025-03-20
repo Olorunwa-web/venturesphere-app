@@ -7,7 +7,7 @@ import ventimg from '../assets/Logo.svg';
 import bluearrow from '../assets/Vector.svg';
 import whitearrow from '../assets/Vector (1).svg';
 import { Link } from 'react-scroll'
-
+import { Link as RouterLink} from 'react-router-dom'
 
 const OffCanvas = ({ name, ...props }) => {
 
@@ -44,10 +44,10 @@ const OffCanvas = ({ name, ...props }) => {
                                   <p>Book a Strategy Call</p>
                                   <img src= {bluearrow} alt=""/>
                                </div>
-                               <div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2'>
+                               <RouterLink to = '/register' className = 'd-flex gap-2 align-items-center justify-content-center book-div-2 text-decoration-none'>
                                    <p>Partner with Us</p>
                                    <img src= {whitearrow} alt=""/>
-                               </div>
+                               </RouterLink>
                             </div>
                          </section>
                      </Offcanvas.Body>

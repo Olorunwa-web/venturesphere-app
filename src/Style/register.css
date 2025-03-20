@@ -1,0 +1,271 @@
+.background-register {
+    background-color: #F7F6F2;
+}
+
+.part-width {
+    width: 45%;
+}
+
+.form-width {
+    width: 49%;
+}
+
+.join-vent {
+    color:  #B1AD4E;
+    font-family: clash-grotesk;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 13px;
+    letter-spacing: 2.3px;
+}
+
+.part-vent {
+    color: #1F253F;
+    font-family: clash-grotesk;
+    font-weight: 500;
+    line-height: 59.04px;
+    font-size: 45px;
+}
+
+.fill {
+    color:  #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.5px;
+    width: 68%;
+}
+
+.form-data {
+    width: 95%;
+    border: 1px solid #EBEBEB;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 2rem;
+    position: relative;
+    z-index: 10;
+
+}
+
+.width-input {
+    width: 50%;
+}
+
+.label-name {
+    color: #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.08px;
+    padding-bottom: 10px;
+}
+
+.input-group {
+    height: 47px;
+    border: 0.95px solid #EBEBEB;
+    border-radius: 7.62px;
+    background-color: #F3F3F3;
+    outline: none;
+    padding-left: 13px;
+    color:  #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.5px;
+
+}
+
+.input-groups {
+    appearance: none; /* Standard property */
+    -webkit-appearance: none; /* Safari, Chrome */
+    -moz-appearance: none; /* Firefox */
+}
+
+.select-icon {
+    position: absolute;
+    right: 8px;
+    bottom: 18%;
+}
+
+
+.input-groups {
+    height: 47px;
+    border: 0.95px solid #EBEBEB;
+    border-radius: 7.62px;
+    background-color: #FFFFFF;
+    outline: none;
+    padding-left: 13px;
+    color:  #1F253F;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.5px;
+
+}
+
+.input-group::placeholder {
+    color: #BBBBBB;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25.5px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border: 0.95px solid #EBEBEB;
+    border-radius: 7.62px;
+    background-color: #F3F3F3;
+    outline: none;
+    padding: 13px;
+    color:  #6B7280;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.5px;
+}
+
+textarea::placeholder {
+    color: #BBBBBB;
+    font-family: var(--ff-instrument-san);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25.5px;
+}
+
+.sub-btn {
+    height: 44px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background-color: #1F253F;
+    color: #FFFFFF;
+    font-family: var(--ff-instrument-san);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.08px;
+
+}
+
+.position-up-decor {
+    position: absolute;
+    right: 0;
+    top: -5%;
+}
+
+.position-down-decor {
+    position: absolute;
+    bottom: -6%;
+    left: -6%;
+}
+
+@media (max-width:767px) {
+
+
+    .register-pad {
+        padding: 0 15px !important;
+    }
+
+    .part-width {
+        width: 100%;
+    }
+    
+    .form-width {
+        width: 100%;
+    }
+
+    .part-vent {
+        width: 100%;
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .fill {
+        width: 100%;
+    }
+
+    .register-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .form-wraps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-data {
+        width: 100%;
+        padding: 1.8rem 1rem;    
+    }
+    
+    .width-input {
+        width: 100%;
+    }
+
+    .position-up-decor, .position-down-decor {
+        display: none;
+    }
+
+    .name-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .part-width {
+        width: 100%;
+    }
+    
+    .form-width {
+        width: 100%;
+    }
+
+    .register-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .form-wraps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .position-down-decor {
+        position: absolute;
+        bottom: -5.5%;
+        left: -1.4%;
+    }
+
+    
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px)  {
+    .name-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .width-input {
+        width: 100%;
+    }
+
+    .position-down-decor {
+        position: absolute;
+        bottom: -5%;
+        left: -6%;
+    }
+}

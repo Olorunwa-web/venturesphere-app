@@ -18,6 +18,12 @@ import Benefit from '../pages/Benefit';
 import Faq from '../pages/Faq';
 import Group  from '../pages/Group';
 import Footer from '../pages/Footer'
+import { Element } from 'react-scroll'
+import { Link } from 'react-router-dom';
+
+
+
+
 
 const constantvariant = {
     hidden: {
@@ -62,6 +68,8 @@ const  markvariants = {
 const Home = () => {
     return (
         <>
+           <Element name = 'home'>
+
             <main className = 'back-ground-image py-4'>
                 <section className = 'container pads'>
                     <section className = 'd-md-flex justify-content-between align-items-center flex-content'>
@@ -69,6 +77,7 @@ const Home = () => {
                             <h1 className = 'start-h1-tag'>Providing Support for Startups</h1>
                             <p className = 'start-p-tag'>Empowering visionary entreprenuers with the capital and support needed to transform innovative ideas into successful businesses.</p>
                             <div className = 'd-md-flex gap-4 align-items-center mt-4 pt-2 flex-content-2'>
+                              <Link to = '/register' className = 'text-decoration-none omo-div'>
                               <motion.div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2-1'
                                 whileHover= {{
                                     cursor: 'pointer'
@@ -81,6 +90,7 @@ const Home = () => {
                                  transition={{delay: 1, duration: 1}}
                                 />
                                </motion.div>
+                              </Link>
                                <motion.div className = 'd-flex gap-2 justify-content-center align-items-center book-div-1-1'
                                   whileHover = {{
                                       backgroundColor: '#B1AD4E',
@@ -152,12 +162,12 @@ const Home = () => {
                    
                 </section>
             </main>
+           </Element>
             <About/>
             <Service/>
             <Benefit/>
             <Group/>
             <Faq/>
-            <Footer/>
         </>
     )
 }

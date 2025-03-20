@@ -8,7 +8,8 @@ import '../Style/Navbar.css';
 import { motion } from 'framer-motion'
 import About from '../pages/About'
 import { Link } from 'react-scroll'
-
+import Footer from '../pages/Footer'
+import { Link as RouterLink } from 'react-router-dom'
 const constantvariant = {
     hidden: {
         opacity: 0,
@@ -36,10 +37,10 @@ const Navbar = () => {
             <main className = 'nav-main'>
                 <section className = 'container d-flex justify-content-between align-items-center py-3 space-nav'>
                    <section className = 'd-flex gap-5 nav-space  align-items-center'>
-                       <div className = 'd-flex gaps align-items-cente'>
+                       <Link to = "home" smooth = {true} duration = {500} className = 'd-flex gaps align-items-cente text-decoration-none'>
                           <img src= {ventimg} alt="" className = 'vent-image'/>
                           <h2 className = 'vent-h3 mt-2'>VENTSPHERE</h2>
-                       </div>
+                       </Link>
                        <div className = ' d-none d-lg-flex gap-5 align-items-center nav-home pt-3'>
                            <p><Link to = "service" smooth = {true} duration = {500} >Service</Link></p>
                            <p><Link to = "about" smooth = {true} duration = {500} >About us</Link></p>
@@ -60,6 +61,7 @@ const Navbar = () => {
                             
                            />
                        </motion.div>
+                        <RouterLink to = '/register' className = 'text-decoration-none'>
                         <motion.div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2' >
                              <p>Partner with Us</p>
                                  <motion.img src= {whitearrow} alt=""
@@ -68,6 +70,7 @@ const Navbar = () => {
                                    transition={{delay: 1, duration: 1}}
                                  />
                         </motion.div>
+                        </RouterLink>
                    </section>
                    <div className = 'd-md-none nav-harm'>
                    {['top'].map((placement, idx) => (
@@ -77,6 +80,7 @@ const Navbar = () => {
                 </section>
             </main>
             <Outlet/>
+             <Footer/>
         </>
     )
 }

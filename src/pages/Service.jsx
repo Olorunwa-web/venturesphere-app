@@ -7,7 +7,7 @@ import agree from '../assets/agreement-01.svg'
 import '../Style/service.css'
 import { motion } from 'framer-motion'
 import whitearrow from '../assets/Vector (1).svg';
-
+import { Link } from 'react-router-dom'
 
 
 const Service = () => {
@@ -70,6 +70,7 @@ const Service = () => {
                          </section>
                          </section>
                          <div className = 'my-4 d-flex justify-content-center align-items-center pt-4'>
+                             <Link to = '/register' className = 'text-decoration-none omo-div'>
                             <motion.div className = 'd-flex gap-2 align-items-center justify-content-center book-div-2-1'
                                 whileHover= {{
                                     cursor: 'pointer'
@@ -82,6 +83,7 @@ const Service = () => {
                                  transition={{delay: 1, duration: 1}}
                                 />
                                </motion.div>
+                             </Link>
                          </div>
                      </section>
                  </main>
