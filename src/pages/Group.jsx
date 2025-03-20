@@ -121,6 +121,24 @@ const Group = () => {
                                           </div>
                                       </div>
                                  </div>
+
+                                 <div className = 'faq-4 slid'>
+                                  <div className = 'd-flex flex-column gap-4'>
+                                    <div>
+                                      <img src= {Decorst} alt="" className = 'w-100'/>
+                                    </div>
+                                    <div>
+                                      <h4 className = 'faq-h4-tags'>"Working with Ventsphere give us the confidence and tools to navigate our industry and achieve our goals." </h4>
+                                    </div>
+                                  </div>
+                                    <div className = 'd-flex gap-3'>
+                                          <img src= {test2} alt=""/>
+                                          <div className = 'd-flex flex-column gap-1'>
+                                              <span className = 'hen'>Henry Orton</span>
+                                              <span className = 'dag'>CEO of Logic</span>
+                                          </div>
+                                      </div>
+                                 </div>
                                 
                             </Slider>
                               
