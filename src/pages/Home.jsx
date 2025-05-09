@@ -72,7 +72,11 @@ const Home = () => {
 
             <main className = 'back-ground-image py-4'>
                 <section className = 'container pads'>
-                    <section className = 'd-md-flex justify-content-between align-items-center flex-content'>
+                    <motion.section className = 'd-md-flex justify-content-between align-items-center flex-content'
+                     initial= {{ opacity: 0, }}
+                     animate = {{opacity: 1 }}
+                     transition = {{ delay: 0.3, duration: 1, ease: 'easeInOut'}}
+                    >
                         <div className = 'word-wrapper'>
                             <h1 className = 'start-h1-tag'>Providing Support for Startups</h1>
                             <p className = 'start-p-tag'>Empowering visionary entreprenuers with the capital and support needed to transform innovative ideas into successful businesses.</p>
@@ -107,9 +111,13 @@ const Home = () => {
                             </div>
                         </div>
                         <div className = 'image-wrapper d-flex flex-column position-relative'>
-                            <div className = 'up-position'>
+                            <motion.div className = 'up-position'
+                             initial = {{ rotate: 0 }}
+                             animate = {{ rotate: 360}}
+                             transition = {{ duration: 1, ease: 'easeInOut' }}
+                            >
                                 <img src= {up} alt="" className = 'up-image' />
-                            </div>
+                            </motion.div>
                             <div className = ' d-flex justify-content-center align-items-center my-5 post-image '>
                                <img src= {image1} alt="" className = 'image-1-pic'/>
                             </div>
@@ -117,38 +125,10 @@ const Home = () => {
                                <img src= {down} alt="" className = ''/>
                             </div>
                         </div>
-                    </section>
+                    </motion.section>
                     <section className = 'd-flex justify-content-between my-5 mark-space'>
                         <p className = 'trust-p'>Trusted Partnership with 100+ company's</p>
-                        <div className = 'marquee-border d-flex'>
-                          {/* <motion.div className = 'd-flex mars-width flex-shrink-1'
-                            initial = {{ x: 0}}
-                            animate = {{ x: '100%' }}
-                            transition = {{ duration: 10, repeat: Infinity ,ease: 'linear' }}
-                            variants = {markvariants}
-                            transition = 'transition'
-                                                      
-                          >
-                            <img src= {zippo} alt=""/>
-                            <img src= {grammar} alt=""/>
-                            <img src= {gold} alt=""/>
-                            <img src= {google} alt=""/>
-                            <img src= {loom} alt=""/>
-                        </motion.div>
-                          <motion.div className = 'd-flex mars-width flex-shrink-1'
-                            initial = {{ x: 0}}
-                            animate = {{ x: '100%' }}
-                            transition = {{ duration: 10, repeat: Infinity, ease: 'linear' , delay: 3 }}
-                                                      
-                          >
-                            <img src= {zippo} alt=""/>
-                            <img src= {grammar} alt=""/>
-                            <img src= {gold} alt=""/>
-                            <img src= {google} alt=""/>
-                            <img src= {loom} alt=""/>
-                        </motion.div> */}
-
-                        </div>
+                       
                          <section className = 'marquee-wrapper mt-2 '>
                             <section className = 'marquee-content'>
                             <img src= {zippo} alt="" className = 'item item1'/>

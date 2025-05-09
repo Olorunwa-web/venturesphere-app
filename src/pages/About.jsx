@@ -1,5 +1,6 @@
 import React from 'react'
-import { Element } from 'react-scroll'
+import { Element } from 'react-scroll';
+import { motion } from 'framer-motion'
 import route from '../assets/route-01.svg';
 import idea from '../assets/idea-01.svg';
 import '../Style/about.css'
@@ -9,7 +10,11 @@ const About = () => {
         <>
            <Element name = "about" >
                  <main className = 'background-color-about py-4 '>
-                     <section className = 'container about-pad my-5'>
+                     <motion.section className = 'container about-pad my-5'
+                       initial= {{ opacity: 0, y: 90 }}
+                       whileInView = {{opacity: 1, y: 0 }}
+                       transition = {{ delay: 0.2, duration: 0.7, ease: 'easeInOut'}}
+                     >
                           <p className = 'about-p-tag text-center'>WHO WE ARE</p>
                           <h2 className = 'about-h1-tag text-center mb-5'>Your Dedicated Partner in Startup Success</h2>
                           <div className = 'd-flex justify-content-between flex-mission mt-4'>
@@ -33,7 +38,7 @@ const About = () => {
 
                               </div>
                           </div>
-                     </section>
+                     </motion.section>
                  </main>
            </Element>
         </>

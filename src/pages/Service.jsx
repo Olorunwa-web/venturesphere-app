@@ -15,7 +15,11 @@ const Service = () => {
         <>
             <Element name = "service"> 
                  <main className = 'background-service py-5' >
-                     <section className = ' container about-pad my-5 '>
+                     <motion.section className = ' container about-pad my-5 '
+                        initial= {{ opacity: 0, y: 90 }}
+                        whileInView = {{opacity: 1, y: 0 }}
+                        transition = {{ delay: 0.2, duration: 0.7, ease: 'easeInOut'}}
+                     >
                          <h6 className = 'about-p-tag text-center pb-1'>WHAT WE DO</h6>
                          <h2 className = 'service-h2-tag text-center pb-3'>Financial Banking You Need to Succeed</h2>
                          <p className = 'service-p-tag text-center '>We understand that financial support is foundational to startup growth, which is why we offer.</p>
@@ -85,7 +89,7 @@ const Service = () => {
                                </motion.div>
                              </Link>
                          </div>
-                     </section>
+                     </motion.section>
                  </main>
             </Element>
         </>

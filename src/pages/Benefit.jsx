@@ -16,7 +16,11 @@ const Benefit = () => {
         <>
            <Element name = "benefit">
                <section className = 'background-benefit py-3'>
-                   <section className = 'container py-5 about-pad my-4 d-flex flex-column gap-5'>
+                   <motion.section className = 'container py-5 about-pad my-4 d-flex flex-column gap-5'
+                      initial= {{ opacity: 0, y: 90 }}
+                      whileInView = {{opacity: 1, y: 0 }}
+                      transition = {{ delay: 0.2, duration: 0.7, ease: 'easeInOut'}}
+                   >
                          <section className = 'section-1 position-relative py-5'>
                               <div className = 'd-md-flex justify-content-between align-items-cente flex-content-services '>
                                   <div className = 'benefit-wrapper'>
@@ -88,7 +92,7 @@ const Benefit = () => {
                                   </div>
                               </div>
                          </section>
-                   </section>
+                   </motion.section>
                </section>
            </Element>
         </>

@@ -2,12 +2,19 @@ import React from 'react'
 import up from '../assets/Decor.svg';
 import down from '../assets/Decor (1).svg';
 import arrowdown from '../assets/arrow-down-01@2x.svg'
-import '../Style/register.css'
+import '../Style/register.css';
+import { motion } from 'framer-motion'
+
+
 const Register = () => {
     return (
         <>
             <main className = 'background-register py-5'>
-                <section className = 'container register-pad  my-5'>
+                <motion.section className = 'container register-pad  my-5'
+                   initial= {{ opacity: 0, y: 90 }}
+                   whileInView = {{opacity: 1, y: 0 }}
+                   transition = {{ delay: 0.2, duration: 0.7, ease: 'easeInOut'}}
+                >
                     <section className = 'd-lg-flex justify-content-between register-flex'>
                         <section className = 'part-width'>
                             <h6 className = 'join-vent'>JOIN VENTSPHERE</h6>
@@ -63,7 +70,7 @@ const Register = () => {
                 
                         </section>
                     </section>
-                </section>
+                </motion.section>
             </main>
         </>
     )

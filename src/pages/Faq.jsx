@@ -41,7 +41,11 @@ const Faq = ({ title, content }) => {
         <>
             <Element name = "faq">
                 <main className = 'background-que py-5 '>
-                    <section className = 'container my-5 about-pad position-relative pass'>
+                    <motion.section className = 'container my-5 about-pad position-relative pass'
+                      initial= {{ opacity: 0, y: 90 }}
+                      whileInView = {{opacity: 1, y: 0 }}
+                      transition = {{ delay: 0.2, duration: 0.7, ease: 'easeInOut'}}
+                    >
                         <section className = 'd-lg-flex justify-content-between flex-faqs pb-5'>
                             <section className = 'faq-width'>
                                 <h6 className = 'faqtag-h pb-2'>WE HAVE ANSWERS</h6>
@@ -166,7 +170,7 @@ const Faq = ({ title, content }) => {
                                 </div>
                         </section>
                     
-                    </section>
+                    </motion.section>
                 </main>
                 
             </Element>

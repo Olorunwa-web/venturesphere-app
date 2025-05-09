@@ -6,7 +6,7 @@ import test1 from '../assets/Testimonial 1.svg';
 import test2 from '../assets/Testimonial 2.svg';
 import test3 from '../assets/Testimonial 3.svg';
 import test4 from '../assets/Testimonial 4.svg';
-
+import { motion } from 'framer-motion'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -54,7 +54,11 @@ const Group = () => {
     return (
         <>
            <main className = 'background-faq py-5'>
-                      <section className = 'container pt-3 pb-5 about-pad '>
+                      <motion.section className = 'container pt-3 pb-5 about-pad '
+                        initial= {{ opacity: 0, y: 90 }}
+                        whileInView = {{opacity: 1, y: 0 }}
+                        transition = {{ delay: 0.2, duration: 0.7, ease: 'easeInOut'}}
+                      >
                           <div className = 'faq-tags text-center my-5'> 
                               <h6>TESTMONIALS</h6>
                               <h2>Success Stories from Visionary Founders</h2>
@@ -100,9 +104,6 @@ const Group = () => {
                                          </div>
                                      </div>
                                   </div>
-                            
-                            
-
                               
                                  <div className = 'faq-3 slid'>
                                   <div className = 'd-flex flex-column gap-4'>
@@ -143,7 +144,7 @@ const Group = () => {
                             </Slider>
                               
                           </section>
-                      </section>
+                      </motion.section>
                   </main>  
         </>
     )
