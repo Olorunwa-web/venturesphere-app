@@ -39,7 +39,7 @@ const Faq = ({ title, content }) => {
   
     return (
         <>
-            <Element name = "faq">
+            <section id = "faq">
                 <main className = 'background-que py-5 '>
                     <motion.section className = 'container my-5 about-pad position-relative pass'
                       initial= {{ opacity: 0, y: 90 }}
@@ -173,7 +173,7 @@ const Faq = ({ title, content }) => {
                     </motion.section>
                 </main>
                 
-            </Element>
+            </section>
         </>
     )
 }

@@ -39,36 +39,13 @@ const constantvariant = {
     }
 }
 
-const marqueeVariants = {
-    animate: {
-      x: ['-100%', '-100%'],
-      transition: {
-          repeat: Infinity,
-          repeatType: "loop",
-          duration: 10,
-          ease: "linear",
-      },
-    },
-  };
-
-
-const  markvariants = {
-    transition: {
-          repeat: Infinity,
-          repeatType: "loop",
-          duration: 30,
-          ease: "linear",
-          yoyo: Infinity
-
-    }
-}
 
 
 
 const Home = () => {
     return (
         <>
-           <Element name = 'home'>
+           <section>
 
             <main className = 'back-ground-image py-4'>
                 <section className = 'container pads'>
@@ -142,8 +119,8 @@ const Home = () => {
                    
                 </section>
             </main>
-           </Element>
-            <About/>
+           </section>
+            <About />
             <Service/>
             <Benefit/>
             <Group/>

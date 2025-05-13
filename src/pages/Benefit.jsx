@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom'
 const Benefit = () => {
     return (
         <>
-           <Element name = "benefit">
+           <section id = "benefit">
                <section className = 'background-benefit py-3'>
                    <motion.section className = 'container py-5 about-pad my-4 d-flex flex-column gap-5'
                       initial= {{ opacity: 0, y: 90 }}
@@ -94,7 +94,7 @@ const Benefit = () => {
                          </section>
                    </motion.section>
                </section>
-           </Element>
+           </section>
         </>
     )
 }

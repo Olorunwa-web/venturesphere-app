@@ -11,8 +11,8 @@ const Register = () => {
         <>
             <main className = 'background-register py-5'>
                 <motion.section className = 'container register-pad  my-5'
-                   initial= {{ opacity: 0, y: 90 }}
-                   whileInView = {{opacity: 1, y: 0 }}
+                   initial= {{ opacity: 0, }}
+                   whileInView = {{opacity: 1 }}
                    transition = {{ delay: 0.2, duration: 0.7, ease: 'easeInOut'}}
                 >
                     <section className = 'd-lg-flex justify-content-between register-flex'>

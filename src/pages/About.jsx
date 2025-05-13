@@ -8,7 +8,7 @@ import '../Style/about.css'
 const About = () => {
     return (
         <>
-           <Element name = "about" >
+           <section id = "aboutus" >
                  <main className = 'background-color-about py-4 '>
                      <motion.section className = 'container about-pad my-5'
                        initial= {{ opacity: 0, y: 90 }}
@@ -40,7 +40,7 @@ const About = () => {
                           </div>
                      </motion.section>
                  </main>
-           </Element>
+           </section>
         </>
     )
 }

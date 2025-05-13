@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 const Service = () => {
     return (
         <>
-            <Element name = "service"> 
+            <section id = "service"> 
                  <main className = 'background-service py-5' >
                      <motion.section className = ' container about-pad my-5 '
                         initial= {{ opacity: 0, y: 90 }}
@@ -91,7 +91,7 @@ const Service = () => {
                          </div>
                      </motion.section>
                  </main>
-            </Element>
+            </section>
         </>
     )
 }
